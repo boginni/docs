@@ -34,20 +34,20 @@ composer dump-autoload
 
 ### Database
 
-#### Create a Migration
+#### Migration
+
+```bash
+php artisan migrate
+```
+
 ```bash
 php artisan make:migration name_of_your_migration
 ```
 
-#### Create a Table Migration
-```bash
-php artisan make:migration create_your_table_name_table --create=your_table_name
-```
+**Options**:
+* `--create=your_table_name`
+* `--table=your_table_name`
 
-#### Add a Column to Existing Table Migration
-```bash
-php artisan make:migration add_some_column_to_your_table_name_table --table=your_table_name
-```
 
 ### Debugging
 
