@@ -1,36 +1,13 @@
 ## Laravel and Composer Useful Commands
 
-### Maintenance
+### Domain
 
-#### Clear Application Cache
-```bash
-php artisan cache:clear
+```
+php artisan make:controller FileController
+
+
 ```
 
-#### Clear Route Cache
-```bash
-php artisan route:clear
-```
-
-#### Clear Configuration Cache
-```bash
-php artisan config:clear
-```
-
-#### Clear Compiled Views
-```bash
-php artisan view:clear
-```
-
-#### Clear Compiled Classes
-```bash
-php artisan clear-compiled
-```
-
-#### Regenerate Class Loader
-```bash
-composer dump-autoload
-```
 
 ### Database
 
@@ -48,6 +25,21 @@ php artisan make:migration name_of_your_migration
 * `--create=your_table_name`
 * `--table=your_table_name`
 
+### Maintenance
+
+```bash
+php artisan cache:clear
+
+php artisan route:clear
+
+php artisan config:clear
+
+php artisan view:clear
+
+php artisan clear-compiled
+composer dump-autoload
+```
+
 
 ### Debugging
 
@@ -58,22 +50,18 @@ php artisan route:list
 
 ### Optimization
 
-#### Optimize Application
 ```bash
 php artisan optimize
 ```
 
-#### Cache Configuration
 ```bash
 php artisan config:cache
 ```
 
-#### Cache Routes
 ```bash
 php artisan route:cache
 ```
 
-#### Cache Views
 ```bash
 php artisan view:cache
 ```
