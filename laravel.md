@@ -1,18 +1,50 @@
 ## Laravel and Composer Useful Commands
 
+
+### Make
+
+```
+php artisan make:<type> <name>
+
+```
+
+**Types**:
+  * make:cast  
+  * make:channel  
+  * make:command  
+  * make:component  
+  * make:controller  
+  * make:event  
+  * make:exception  
+  * make:factory  
+  * make:job  
+  * make:listener  
+  * make:mail  
+  * make:middleware  
+  * make:migration  
+  * make:model  
+  * make:notification  
+  * make:observer  
+  * make:policy  
+  * make:provider  
+  * make:request  
+  * make:resource  
+  * make:rule  
+  * make:scope  
+  * make:seeder  
+  * make:test  
+  * make:view  
 ### Domain
 
 ```
 php artisan make:controller FileController
-```
 
-```
 php artisan make:request StorePostRequest
-```
 
-```
 php artisan make:service ApiResponseService
 ```
+
+
 
 ### Database
 
