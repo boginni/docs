@@ -4,8 +4,10 @@
 
 ```
 php artisan make:controller FileController
+```
 
-
+```
+php artisan make:request StorePostRequest
 ```
 
 
