@@ -10,6 +10,9 @@ php artisan make:controller FileController
 php artisan make:request StorePostRequest
 ```
 
+```
+php artisan make:service ApiResponseService
+```
 
 ### Database
 
