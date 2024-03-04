@@ -36,6 +36,7 @@ php artisan make:<type> <name>
   * make:view  
 ### Domain
 
+#### Controllers
 ```
 php artisan make:controller FileController
 
@@ -44,6 +45,14 @@ php artisan make:request StorePostRequest
 php artisan make:service ApiResponseService
 ```
 
+#### Magic Methods
+```
+composer require barryvdh/laravel-ide-helper
+
+php artisan ide-helper:generate
+
+php artisan ide-helper:models
+```
 
 
 ### Database
