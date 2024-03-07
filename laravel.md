@@ -38,7 +38,7 @@ php artisan make:<type> <name>
 
 #### Controllers
 ```
-php artisan make:controller FileController
+php artisan make:controller API/PhotoController --model=Photo --api
 ```
 * `--api`
 * `--resource`
