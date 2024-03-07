@@ -5,7 +5,6 @@
 
 ```
 php artisan make:<type> <name>
-
 ```
 
 **Types**:
