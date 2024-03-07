@@ -39,7 +39,15 @@ php artisan make:<type> <name>
 #### Controllers
 ```
 php artisan make:controller FileController
-
+```
+* --api
+* --resource
+* --model ModelName
+* --parent
+nested resources
+* --invokable
+use case
+```
 php artisan make:request StorePostRequest
 
 php artisan make:service ApiResponseService
