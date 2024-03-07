@@ -40,12 +40,12 @@ php artisan make:<type> <name>
 ```
 php artisan make:controller FileController
 ```
-* --api
-* --resource
-* --model ModelName
-* --parent
+* `--api`
+* `--resource`
+* `--model ModelName`
+* `--parent`
 nested resources
-* --invokable
+* `--invokable`
 use case
 ```
 php artisan make:request StorePostRequest
